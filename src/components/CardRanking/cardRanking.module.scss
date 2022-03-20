@@ -1,0 +1,22 @@
+.content {
+  margin-bottom: 1rem;
+  .infoRanking {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    .dataCompany {
+      padding-left: 0.75rem;
+      span {
+        display: block;
+        font-size: 14px;
+        &.nameCompany {
+          color: var(--gray-150);
+          font-weight: bold;
+        }
+        &.statusProgress{
+            color: var(--gray-100)
+        }
+      }
+    }
+  }
+}

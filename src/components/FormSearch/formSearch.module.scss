@@ -1,0 +1,36 @@
+.formContent {
+  h3 {
+    font-size: 48px;
+    color: var(--black);
+    margin-top: 1rem;
+  }
+
+  form {
+    margin-top: 2rem;
+    .allInputs {
+      display: grid;
+      row-gap: 10px;
+
+      @media screen and (min-width: 768px) {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        .lastInput {
+          grid-column-start: 1;
+          grid-column-end: 3;
+        }
+      }
+    }
+
+    button {
+      margin-top: 3rem;
+      width: 186px;
+      background-color: var(--blue);
+      transition: filter 0.2s;
+      text-transform: inherit;
+      font-size: 14px;
+      &:hover {
+        filter: brightness(0.9);
+      }
+    }
+  }
+}

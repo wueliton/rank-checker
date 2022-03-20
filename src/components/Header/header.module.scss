@@ -1,0 +1,17 @@
+.header {
+  box-shadow: none;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  .logoMenuBar {
+    padding: 1rem 0;
+    display: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .logoMenuBar{
+      display: block;
+    }
+  }
+
+}

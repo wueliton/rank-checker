@@ -1,0 +1,11 @@
+.TableContent{
+    max-height: 600px;
+    overflow-x: auto;
+    .circleProgress{
+        width: 1.25rem !important; 
+        height: 1.25rem !important;
+    }
+    .iconStatus{
+        font-size: 1.25rem;
+    }
+}

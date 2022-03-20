@@ -1,0 +1,46 @@
+.menuBar {
+  padding: 27px 0;
+  .logoMenuBar {
+    padding: 0 1rem;
+  }
+
+  > span {
+    display: block;
+    font-size: 0.5rem;
+    font-weight: 600;
+    margin-top: 0.7rem;
+    color: var(--gray-100);
+    padding: 0 16px;
+  }
+}
+.sideBar {
+  .titleSection {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    display: block;
+  }
+}
+
+.menuBarList {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--blue);
+  .active::after {
+    content: "";
+    height: 24px;
+    width: 3px;
+    border-radius: 4px 0px 0px 4px;
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    top: 11px;
+    background: var(--blue);
+  }
+  .itemIconMenuBar {
+    min-width: 35px;
+    .iconMenuBar {
+      color: var(--blue);
+    }
+  }
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --blue: #3661ED;
+    --blue-dark: #092EA6;
+    --black: #18243B;
+    --gray-150: #7E8199;
+    --gray-100: #A4A6B8;
+    --gray-40: #E6ECF5;
+    --gray-10: #F8F9FF;
+    -geen-100: #2AA074;
+    -geen-10: #DEFBF0;
+    -geen-10: #B92D3B;
+    -red-10: #FFEBED;
+}
+
+
+body,input,textarea,select,button{
+    font: 400 1rem "Poppins", sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
